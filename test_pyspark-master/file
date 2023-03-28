@@ -1,0 +1,36 @@
+sudo docker exec -it cnt7-naya-cdh63 bash
+sudo su naya
+cd /home/naya/
+
+docker restart cnt7-naya-cdh63
+
+conda update --all
+
+docker cp c:\path\to\local\file container_name:/path/to/target/dir/
+docker ps --format "{{.Names}}"
+
+
+mongoimport --db treesize_db --collection col_INFO --jsonArray --file Svetlana_Last_2023_03_12_224822_INFO_Main.txt
+mongoimport --db treesize_db --collection col_F_INFO --jsonArray --file Svetlana_Last_2023_03_12_224822_INFO_DIR.txt
+mongoimport --db treesize_db --collection col_DIR --jsonArray --file Svetlana_Last_2023_03_12_224822_dir_1.txt
+mongoimport --db treesize_db --collection col_DIR --jsonArray --file Svetlana_Last_2023_03_12_224822_dir_2.txt
+
+
+db.col_INFO.find().pretty()
+
+
+db.collection.drop( { writeConcern: <document> } )
+chmod ugo+rwx /tmp/pycharm_project_6/archive_files/
+
+db.dropDatabase()
+
+rm -v /tmp/pycharm_project_697/archive_files/*
+rm -v /tmp/pycharm_project_697/test_pyspark-master/json_files/*
+
+makdir /home/naya/miniconda3/envs/airflow/lib/python3.6/site-packages/airflow/my_dags/matannnnnnnn.py
+
+# after how much time a new DAGs should be picked up from the filesystem
+min_file_process_interval = 0
+dag_dir_list_interval = 60
+
+

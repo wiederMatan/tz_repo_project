@@ -1,0 +1,10 @@
+03/28/2023 04:54:27 - INFO - ******************* BEGIN my_logger *********************
+03/28/2023 04:54:27 - INFO - <BrokerConnection node_id=bootstrap-0 host=cnt7-naya-cdh63:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: connecting to cnt7-naya-cdh63:9092 [('172.18.0.2', 9092) IPv4]
+03/28/2023 04:54:27 - INFO - Probing node bootstrap-0 broker version
+03/28/2023 04:54:27 - INFO - <BrokerConnection node_id=bootstrap-0 host=cnt7-naya-cdh63:9092 <connecting> [IPv4 ('172.18.0.2', 9092)]>: Connection complete.
+03/28/2023 04:54:28 - INFO - Broker version identifed as 1.0.0
+03/28/2023 04:54:28 - INFO - Set configuration api_version=(1, 0, 0) to skip auto check_version requests on startup
+03/28/2023 04:54:28 - INFO - PRODUCER: count files =>7
+03/28/2023 04:54:28 - INFO - Closing the Kafka producer with 0 secs timeout.
+03/28/2023 04:54:28 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+03/28/2023 04:54:28 - INFO - <BrokerConnection node_id=bootstrap-0 host=cnt7-naya-cdh63:9092 <connected> [IPv4 ('172.18.0.2', 9092)]>: Closing connection. 

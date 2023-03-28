@@ -1,0 +1,1 @@
+[{"disc_name": "C:", "now": "2023-03-12 22:48:22", "computer_name": "Svetlana_Last", "disc_total": 1021329797120, "disc_used": 738665963520, "disc_free": 282663833600, "disc_used_precent": 72.32, "disc_free_precent": 27.68, "disc_type": "WIN"}]

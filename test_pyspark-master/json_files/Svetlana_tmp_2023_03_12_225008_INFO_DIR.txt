@@ -1,0 +1,1 @@
+[{"computer_name": "Svetlana_tmp", "folder_name": "C:/_TEMP", "folder_size": 1121162229, "fnm_with_last_change": "Svetlana_tmp_2023_03_12_225008___dir_1.txt", "chk_from_date": "1950-01-01 23:59:59", "now_run": "2023-03-12 22:50:08", "count_all_files": 7119, "count_last_files": 7119, "count_err_files": 0}]
